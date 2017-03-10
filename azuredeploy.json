@@ -24,7 +24,7 @@
     "variables": {
         "storageName": "[concat('function', uniqueString(parameters('siteName')))]",
         "contentShareName": "[toLower(parameters('siteName'))]",
-        "repoUrl": "https://github.com/anthonychu/slack-user-change-alerts",
+        "repoUrl": "https://github.com/anthonychu/azure-functions-static-file-server",
         "branch": "master"
     },
     "resources": [
